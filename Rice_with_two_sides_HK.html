@@ -3,7 +3,7 @@
       
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Data behind Hong Kong's "Rice with two sides" craze</title>
-	<link rel="icon" href="images/favicon.jpg">
+	<link rel="icon" href="logo.png">
 	<link rel="stylesheet" href="bulma.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
@@ -36,13 +36,13 @@
 				}
 			}
           .container {
-            max-width: 780px !important;
+            max-width: 1000px !important;
             color: #000000;
             font-family: Georgia;
           }
           img {
             display: block;
-            width:700px;
+            width:1000px;
             margin: 0 auto;
             transition: 0.3s;
           }
@@ -57,6 +57,20 @@
             font-family: Georgia;
             color: #000000;
           }
+
+		  .portrait {
+    float: left; /* Position the portrait to the left */
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the portrait round */
+    margin-right: 15px; /* Add some space between the portrait and the text */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.byline, .date {
+    line-height: 100px; /* Adjust the line height to align with the height of the portrait */
+    margin: 0; /* Adjust margin as needed */
+}
 
           .graph-title {
             font-family: Arial;
@@ -102,7 +116,7 @@
           }
 
           h2.subtitle  span {
-            background-color: white;
+            color: white;
             padding: 0 1.3rem 0.3rem;
             -webkit-box-decoration-break: clone;
             -ms-box-decoration-break: clone;
@@ -171,10 +185,13 @@
             min-height: 100%;
             width: auto; 
             height: auto;
-			min-height: 120vh;
             z-index: -100; /* Ensure video stays in the background */
             background-size: cover;
           }
+
+		  .content {
+    overflow: hidden; /* Clear the float */
+} 
 
           .hero-body {
             position: relative;
@@ -254,8 +271,6 @@
       })();
   </script>
 
-
-
     </head>
     <body>
 
@@ -267,7 +282,7 @@
 				</video>
 			  </div>
 			  <h1 class="title"><span>Tasty, cheap and cheerful: <br>Data behind Hong Kong's "Rice with two sides" craze</span></h1>
-			  <h2 class="subtitle"><span>As China's economy slowing down in recent years, the government has gradually turned its attention back to implementing penalties as a means of generating revenue. Data analysis shows that since 2014, the portion of local government revenue derived from fines and penalties has been steadily increasing.</span></h2>
+			  <h2 class="subtitle"><span>The city has seen a resurgence of its staple dish - a big portion of rice with two Cantonese sides for as low as US$3 - during the past few years. Meanwhile, it also showcases the changes of city's catering industry under the impact of multiple factors. </span></h2>
 			  <div class="bottomleft"></div>
 			</div> 
 		</section>
@@ -275,492 +290,51 @@
 
       <section class="section">
         <div class="container">
-          <div class="content">
-            <div class="byline"><b>By Yong Xiong</b></div>
-            <div class="date">April 1, 2023</div>
-            <p>Local government in China has been fining a lot of people. </p>
-
-            <p>As China's economy slowing down in recent years, the government has gradually turned its attention back to implementing penalties as a means of generating revenue. Data analysis shows that since 2014, the portion of local government revenue derived from fines and penalties has been steadily increasing.</p>
-
-				<h2>Richer, but riskier</h2>
-				<p>One of the primary reasons behind this increase in fines is the tightening of regulatory measures by the central government. In an effort to enforce compliance with various laws and regulations, local governments have been actively cracking down on businesses and individuals who violate these rules. </p>
-				
-				<p>This has led to a surge in the number of fines issued across the country, affecting industries such as construction, manufacturing, and food safety, among others.</p>
-
-				<div class="graph-title">Local and central government revenue from  penalties since 2000</div>
-				<div class="graph-subtitle">Fiscal income from fines and penalties has been steadily increasing in the past 20 years</div>
-				<div class="flourish-embed flourish-scatter" data-src="visualisation/13302528"><script src="./Chinese government&#39;s secret income_files/embed.js"></script><iframe scrolling="no" frameborder="0" title="Interactive or visual content" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation" src="./Chinese government&#39;s secret income_files/embed.html" style="width: 100%; height: 575px;"></iframe><div class="flourish-credit" style="width:100%!important;margin:0 0 4px!important;text-align:right!important;font-family:Helvetica,sans-serif!important;color:#888!important;font-size:11px!important;font-weight:bold!important;font-style:normal!important;-webkit-font-smoothing:antialiased!important;box-shadow:none!important;"><a href="https://flourish.studio/visualisations/scatter-charts/?utm_source=showcase&amp;utm_campaign=visualisation/13302528" target="_top" style="display:inline-block!important;text-decoration:none!important;font:inherit!important;color:inherit!important;border:none!important;margin:0 5px!important;box-shadow:none!important;"><img alt="Flourish logo" src="./Chinese government&#39;s secret income_files/bosh.svg" style="font:inherit!important;width:auto!important;height:12px!important;border:none!important;margin:0 2px 0!important;vertical-align:middle!important;display:inline-block!important;box-shadow:none!important;"><span style="font:inherit!important;color:#888!important;vertical-align:middle!important;display:inline-block!important;box-shadow:none!important;">A Flourish scatter chart</span></a></div></div>
-				<p>Another factor contributing to this uptick in fines is the increased pressure on local governments to meet fiscal revenue targets. As the economy slows down, local governments are faced with a growing challenge to generate sufficient revenue to maintain public services and infrastructure investments.</p>	
-				<p>In response, they have been leveraging fines as a convenient and relatively quick source of income, in some cases even aggressively pursuing minor offenses or perceived violations.</p>
-
-
-            <p></p><div class="graph-title">Percentage of revenue from fines and penalties in total revenue</div>
-            <div class="graph-subtitle">Since the year 2000, revenue generated from fines and penalties has been on a decline. This trend reached its lowest point in the year 2014.</div>
-
-
-<style media="screen,print">
-	#g-plot-box ,
-	#g-plot-box .g-artboard {
-		margin:0 auto;
-	}
-	#g-plot-box p {
-		margin:0;
-	}
-	#g-plot-box .g-aiAbs {
-		position:absolute;
-	}
-	#g-plot-box .g-aiImg {
-		position:absolute;
-		top:0;
-		display:block;
-		width:100% !important;
-	}
-	#g-plot-box .g-aiSymbol {
-		position: absolute;
-		box-sizing: border-box;
-	}
-	#g-plot-box .g-aiPointText p { white-space: nowrap; }
-	#g-plot-Artboard_1 {
-		position:relative;
-		overflow:hidden;
-	}
-	#g-plot-Artboard_1 p {
-		font-family:arial,helvetica,sans-serif;
-		line-height:17px;
-		height:auto;
-		opacity:1;
-		letter-spacing:0em;
-		font-size:14px;
-		text-align:left;
-		color:rgb(0,0,0);
-		text-transform:none;
-		padding-bottom:0;
-		padding-top:0;
-		mix-blend-mode:normal;
-		font-style:normal;
-		position:static;
-	}
-	#g-plot-Artboard_1 .g-pstyle0 {
-		height:17px;
-	}
-	#g-plot-Artboard_1 .g-pstyle1 {
-		height:17px;
-		text-align:right;
-		color:rgb(77,77,77);
-	}
-	#g-plot-Artboard_1 .g-pstyle2 {
-		height:17px;
-		text-align:right;
-	}
-	#g-plot-Artboard_1 .g-pstyle3 {
-		height:17px;
-		text-align:center;
-		color:rgb(77,77,77);
-	}
-	#g-plot-Artboard_1 .g-pstyle4 {
-		line-height:14px;
-		height:14px;
-		font-size:12px;
-		color:rgb(77,77,77);
-	}
-	#g-plot-Artboard_2 {
-		position:relative;
-		overflow:hidden;
-	}
-	#g-plot-Artboard_2 p {
-		font-family:arial,helvetica,sans-serif;
-		line-height:17px;
-		height:auto;
-		opacity:1;
-		letter-spacing:0em;
-		font-size:14px;
-		text-align:left;
-		color:rgb(0,0,0);
-		text-transform:none;
-		padding-bottom:0;
-		padding-top:0;
-		mix-blend-mode:normal;
-		font-style:normal;
-		position:static;
-	}
-	#g-plot-Artboard_2 .g-pstyle0 {
-		height:17px;
-	}
-	#g-plot-Artboard_2 .g-pstyle1 {
-		height:17px;
-		text-align:right;
-		color:rgb(77,77,77);
-	}
-	#g-plot-Artboard_2 .g-pstyle2 {
-		height:17px;
-		text-align:right;
-	}
-	#g-plot-Artboard_2 .g-pstyle3 {
-		height:17px;
-		text-align:center;
-		color:rgb(77,77,77);
-	}
-	#g-plot-Artboard_2 .g-pstyle4 {
-		line-height:14px;
-		height:14px;
-		font-size:12px;
-		color:rgb(77,77,77);
-	}
-
-</style>
-
-<div id="g-plot-box" class="ai2html">
-
-	<!-- Artboard: Artboard_1 -->
-	<div id="g-plot-Artboard_1" class="g-artboard" style="width:780px; height:431.536300567837px;" data-aspect-ratio="1.807" data-min-width="780">
-<div style=""></div>
-		<img id="g-plot-Artboard_1-img" class="g-plot-Artboard_1-img g-aiImg" alt="" src="./Chinese government&#39;s secret income_files/plot-Artboard_1.png">
-		<img id="g-plot-Artboard_1-interactions-img" class="g-plot-Artboard_1-interactions-img g-aiImg" alt="" src="./Chinese government&#39;s secret income_files/plot-Artboard_1-interactions.svg">
-		<div id="Percentage" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:5.3714%;margin-top:-18.2px;left:1.9752%;width:259px;">
-			<p class="g-pstyle0">Percentage of revenue from penalties </p>
-			<p class="g-pstyle0">in total revenue</p>
-		</div>
-		<div id="9_0" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:20.8047%;margin-top:-9.8px;right:93.9976%;width:54px;">
-			<p class="g-pstyle1">9.0%</p>
-		</div>
-		<div id="text" class="g-interactions g-aiAbs g-aiPointText" style="top:27.2467%;margin-top:-26.6px;right:34.6047%;width:224px;">
-			<p class="g-pstyle2">In 2014, the average percentage</p>
-			<p class="g-pstyle2">of revenue from penalties</p>
-			<p class="g-pstyle2">reached the lowest point</p>
-		</div>
-		<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:41.6605%;margin-top:-9.8px;right:94.0684%;width:41px;">
-			<p class="g-pstyle1">6.0</p>
-		</div>
-		<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:62.748%;margin-top:-9.8px;right:94.0684%;width:41px;">
-			<p class="g-pstyle1">3.0</p>
-		</div>
-		<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:83.6036%;margin-top:-9.8px;right:93.9817%;width:30px;">
-			<p class="g-pstyle1">0</p>
-		</div>
-		<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.5556%;margin-top:-9.8px;left:10.038%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2000</p>
-		</div>
-		<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.5556%;margin-top:-9.8px;left:29.8823%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2005</p>
-		</div>
-		<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.5556%;margin-top:-9.8px;left:49.702%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2010</p>
-		</div>
-		<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.5556%;margin-top:-9.8px;left:69.6151%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2015</p>
-		</div>
-		<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.5556%;margin-top:-9.8px;left:89.657%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2020</p>
-		</div>
-		<div id="Source_China_s_Ministry_of_Finance_CEIC" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:96.1906%;margin-top:-8.1px;left:2.1134%;width:246px;">
-			<p class="g-pstyle4">Source: China’s Ministry of Finance, CEIC</p>
-		</div>
+			<div class="content">
+				<img src="portrait.jpeg" class="portrait" alt="Thomas Li"> <!-- Add your portrait here -->
+				<div class="byline"><b>By Thomas Li</b></div>
+				<div class="date">Feb 3, 2024</div>
+            <p>It's lunch time in Central. Like CBDs elsewhere in the world, food courts are always occupied by hungry office workers - here in Hong Kong, most of them are in the financial industry or expatriates. Besides choosing all the 鬼佬 ("gweilo", a White person) food such as salads and sandwiches, many of them flocked to a stall. What is sold here is the delicacy of the grassroot in Hong Kong - 兩餸飯 (“Rice with two sides”).</p>
+            <p>This is what happened early this year when <a href="https://ifc.com.hk/en/mall/shop/chapter/">this stall</a> opened in the prime location of Two ifc. Although a two-meal rice set priced at HKD75 ($9.5) felt a bit 搵笨 ("rip-off"), the constant flow of people made me curious about the changes that are happening in this city with the most diverse food in the world.</p>
+			<p>Rice with two sides has never been a romantic food - whether it was <a href="https://www.facebook.com/USAinHKMacau/posts/pfbid02UKwPTeiiqXYbwAxoPqWkyan8V3NsH9YZ77pjH9UULuciauZmvrB5sfKy9MVfvDRfl">praised by the American consul</a> or not. Like similar variations in other Chinese communities of Taiwan and Singapore, Hong Kong's Rice with two sides have been a grassroots food to satisfy hunger since its inception. The concept gained widespread popularity during the 1960s, particularly within factory canteens and small stalls near schools, catering primarily to a clientele of blue-collar workers, lower-income individuals, and students. This meal option became renowned for its affordability, decent quality, and straightforwardness, often described as good value for money (or in Cantonese, “平靚正”).</p>
+			<p>The past two years, however, have seen a drastic increase in Rice with Two Sides places in Hong Kong. This is partly due to the significant challenges the city faced during the COVID-19 pandemic when the government banned dine-in services for an extended period (Rice with Two Sides is most commonly served as take-away, “拎走”). On the other hand, noticeable economic downturns and global supply chain disruptions, leading to soaring prices, have caused the city's residents to focus more on optimizing their food choices.</p>
+            <br>
+            <div style="min-height:671px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/nNUf2/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/nNUf2/full.png" alt="" /></noscript></div>
+			<br>
+			<p>After all, the fancy place like the one mentioned at the beginning is only a minority. Most of the time, the consumer group of Rice with two sides is very price sensitive. As dim sum houses and supermarkets have also joined this craze, Rice with two sides places have sprouted up in all districts in Hong Kong in the past two years with competition of price with each other, this also give people the impression that “there is no cheapest, only cheaper”. <a href="https://www.facebook.com/groups/ricewith2sides/">A Facebook concern group</a>, and a <a href="https://www.google.com/maps/d/viewer?mid=1ajJqZDkUYSqW5JDGs554Z6C560SvXTBx&hl=en_US&ll=22.320632778903725%2C114.18014986785542&z=12">user-reported Google Map</a>, were set up for Rice with two sides lovers to exchange information (and for me to get data).</p>
+            <br>
+			<img src="landscape_plot_region.png" alt="Distribution of price by region">
+			<br>
+			<p>The price of Rice with two sides is affected by many factors. As everyone in the city knows, in the “atas” areas of Hong Kong Island, rent often accounts for a large part of the cost of running a business, so food prices cannot be cheap. In Sham Shui Po, where more middle- and lower-class people live, there are not only many choices for Rice with two sides, but the prices are also affordable - you can even find great deals of less than HKD30 ($3.8).</p>
+			<br>
+			<img src="landscape_plot_district.png" alt="Distribution of price by region">
+			<br>
+            <p>Of course, price is not the only reference factor. Even budget delicacies like Rice with two sides must be properly served and delicious. One of the important tips is matching. Dishes with a lot of sauce, such as sweet and sour pork, curry chicken, and braised pork knuckles are great with rice, but if paired together, it will be too soupy. In addition, if you want to get enough fiber, it is best to get vegetarian sides such as stir-fried broccoli, “Buddha's delight”, and braised luffa. <a href="https://www.hk01.com/article/805529?utm_source=01articlecopy&utm_medium=referral">An earlier survey</a> pointed out that the most favorite dish among Hong Kong residents is salt and pepper pork chop.</p> 
+            <br>
+			<img src="landscape_plot_review.png" alt="Distribution of review scores">
+			<br>
+			<p>The business of Rice with two sides has surged due to the pandemic, but few people pay attention to the environmental issues behind it. Since most places only offer takeout, the amount of disposable tableware used is staggering. In 2020 alone, when the pandemic was the worst, Hong Kong people threw away <a href="https://www.wastereduction.gov.hk/sites/default/files/resources_centre/waste_statistics/msw2020_ataglance_eng.pdf">266 tons of disposable tableware</a>. As the government will introduce <a href="https://www.mswcharging.gov.hk/en/">garbage charges</a> and ban some disposable tableware within this year, I believe that the way Hong Kong people consume Rice with two sides will also become more sustainable.</p>
+            <p>Well, I'm going to stop here and go for my dinner - probably the Rice with two sides leftove</p>
+		    <br>
+			<img src="Open_AI_illustration.png" alt="Distribution of review scores">
+			<p style="color: gray;"><i>A "Rice with two sides" dinner set with Hong Kong's skyline, generated by OpenAI.</i></p>
+		</div>	
+	
+	
+	<div class="container">
+		<div class="content">
+		<p><strong>Note:</strong></p>
+        <p>All places mentioned are from <a href="https://www.google.com/maps/d/viewer?mid=1ajJqZDkUYSqW5JDGs554Z6C560SvXTBx&hl=en_US&ll=22.320632778903725%2C114.18014986785542&z=12" target="_blank">"Hong Kong Rice with two sides map"</a> (香港兩餸飯地圖), a user-reported map managed by <a href="https://www.facebook.com/groups/ricewith2sides/" target="_blank">"Hong Kong Rice with two sides concern group"</a>(香港兩餸飯關注組).</p>
+		<p>Background video from Initium Media. Watch the full video <a href="https://www.youtube.com/watch?v=D_M8taxPqkE" target="_blank">here</a>.</p>
+		<p>You can view the code and all the data used on my <a href="https://github.com/thomastaoli/HK_rice_with_two_sides" target="_blank">Github</a>.</p>
+    </div>
 	</div>
-
-	<!-- Artboard: Artboard_2 -->
-	<div id="g-plot-Artboard_2" class="g-artboard" style="max-width: 350px;max-height: 426px" data-aspect-ratio="0.821" data-min-width="0" data-max-width="779">
-<div style="padding: 0 0 121.7633% 0;"></div>
-		<img id="g-plot-Artboard_2-img" class="g-plot-Artboard_2-img g-aiImg" alt="" src="./Chinese government&#39;s secret income_files/plot-Artboard_2.png">
-		<img id="g-plot-Artboard_2-interactions-img" class="g-plot-Artboard_2-interactions-img g-aiImg" alt="" src="./Chinese government&#39;s secret income_files/plot-Artboard_2-interactions.svg">
-		<div id="Percentage" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:6.7062%;margin-top:-26.6px;left:0.7898%;width:168px;">
-			<p class="g-pstyle0">Percentage of revenue </p>
-			<p class="g-pstyle0">from penalties in</p>
-			<p class="g-pstyle0">total revenue</p>
-		</div>
-		<div id="9_0" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:18.9548%;margin-top:-9.8px;right:90.2355%;width:54px;">
-			<p class="g-pstyle1">9.0%</p>
-		</div>
-		<div id="text2" class="g-interactions g-aiAbs g-aiPointText" style="top:29.3262%;margin-top:-35px;right:35.0794%;width:194px;">
-			<p class="g-pstyle2">In 2014, the average</p>
-			<p class="g-pstyle2">percentage of revenue from</p>
-			<p class="g-pstyle2">penalties reached</p>
-			<p class="g-pstyle2">the lowest point</p>
-		</div>
-		<div id="g-ai1-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.1345%;margin-top:-9.8px;right:91.7839%;width:41px;">
-			<p class="g-pstyle1">6.0</p>
-		</div>
-		<div id="g-ai1-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:61.6607%;margin-top:-9.8px;right:91.9415%;width:41px;">
-			<p class="g-pstyle1">3.0</p>
-		</div>
-		<div id="g-ai1-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:84.8906%;margin-top:-9.8px;right:91.5909%;width:30px;">
-			<p class="g-pstyle1">0</p>
-		</div>
-		<div id="g-ai1-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:91.6955%;margin-top:-9.8px;left:11.5994%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2000</p>
-		</div>
-		<div id="g-ai1-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:91.6955%;margin-top:-9.8px;left:47.9677%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2010</p>
-		</div>
-		<div id="g-ai1-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:91.6955%;margin-top:-9.8px;left:68.5804%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2015</p>
-		</div>
-		<div id="g-ai1-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:91.6955%;margin-top:-9.8px;left:30.2121%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2005</p>
-		</div>
-		<div id="g-ai1-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:91.6955%;margin-top:-9.8px;left:88.0502%;margin-left:-26.5px;width:53px;">
-			<p class="g-pstyle3">2020</p>
-		</div>
-		<div id="Source" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.4014%;margin-top:-8.1px;left:1.0978%;width:246px;">
-			<p class="g-pstyle4">Source: China’s Ministry of Finance, CEIC</p>
-		</div>
-	</div>
-
-<!-- Custom HTML -->
-<script src="./Chinese government&#39;s secret income_files/d3.min.js"></script>
-<style>
-.hidden { visibility: hidden; }
-</style>
-
-</div>
-
-<!-- End ai2html - 2023-04-04 03:40 -->
-
-
-
-            <p>Experts say the primary reason for this decline is attributed to China's economic boom, which began after it joined the World Trade Organization (WTO) in the year 2001.</p>
-				<p>In 2014, this number reached the lowest point in history.</p>  
-
-            <p></p> 
-
-
-				<h2>Some places are more aggressive</h2>
-				<p>While local governments in China are all fining people more than ever, governments in some places are more aggressive.</p>
-		
-				<p>One case occurred in October 2021 in northeastern China's Shaanxi province, where a couple was fined more than $9,500 for selling $3 worth of celery that didn't meet one hygienic standard.</p>
-				<p>According to Chinese state media reports, the couple only earned less than $2 of profit in the transaction.</p>
-			  <p>And among the more than 21 cases that vendors were fined more than $7,200 by local city management department, most of the fines were 100 to 200 times of the worth of income that vendors received, some were even 3,000 times more.</p>
-			  </div>
-				<p></p><div class="graph-title">Inner Mongolia has the highest relative fines</div>
-				<div class="graph-subtitle">Local government in Inner Mongolia's income from fines and penalties has sharply increased since 2015, reaching a record high of 8.1% for the province.</div>
-
-
-
-
-<!-- Generated by ai2html v0.115.5 - 2023-04-04 03:28 -->
-<!-- ai file: plt4.svg -->
-<style media="screen,print">
-	#g-plt4_svg-box ,
-	#g-plt4_svg-box .g-artboard {
-		margin:0 auto;
-	}
-	#g-plt4_svg-box p {
-		margin:0;
-	}
-	#g-plt4_svg-box .g-aiAbs {
-		position:absolute;
-	}
-	#g-plt4_svg-box .g-aiImg {
-		position:absolute;
-		top:0;
-		display:block;
-		width:100% !important;
-	}
-	#g-plt4_svg-box .g-aiSymbol {
-		position: absolute;
-		box-sizing: border-box;
-	}
-	#g-plt4_svg-box .g-aiPointText p { white-space: nowrap; }
-	#g-plt4_svg-Artboard_1 {
-		position:relative;
-		overflow:hidden;
-	}
-	#g-plt4_svg-Artboard_1 p {
-		font-family:arial,helvetica,sans-serif;
-		line-height:17px;
-		opacity:1;
-		letter-spacing:0em;
-		font-size:14px;
-		text-align:left;
-		color:rgb(0,0,0);
-		text-transform:none;
-		padding-bottom:0;
-		padding-top:0;
-		mix-blend-mode:normal;
-		font-style:normal;
-		height:auto;
-		position:static;
-	}
-	#g-plt4_svg-Artboard_1 .g-pstyle0 {
-		text-align:right;
-		color:rgb(77,77,77);
-	}
-	#g-plt4_svg-Artboard_1 .g-pstyle1 {
-		text-align:right;
-	}
-	#g-plt4_svg-Artboard_1 .g-pstyle2 {
-		height:17px;
-	}
-	#g-plt4_svg-Artboard_1 .g-pstyle3 {
-		text-align:center;
-		color:rgb(77,77,77);
-	}
-	#g-plt4_svg-Artboard_1 .g-pstyle4 {
-		line-height:14px;
-		font-size:12px;
-		color:rgb(77,77,77);
-	}
-	#g-plt4_svg-Artboard_2 {
-		position:relative;
-		overflow:hidden;
-	}
-	#g-plt4_svg-Artboard_2 p {
-		font-family:arial,helvetica,sans-serif;
-		line-height:17px;
-		opacity:1;
-		letter-spacing:0em;
-		font-size:14px;
-		text-align:left;
-		color:rgb(0,0,0);
-		text-transform:none;
-		padding-bottom:0;
-		padding-top:0;
-		mix-blend-mode:normal;
-		font-style:normal;
-		height:auto;
-		position:static;
-	}
-	#g-plt4_svg-Artboard_2 .g-pstyle0 {
-		text-align:right;
-		color:rgb(77,77,77);
-	}
-	#g-plt4_svg-Artboard_2 .g-pstyle1 {
-		height:17px;
-	}
-	#g-plt4_svg-Artboard_2 .g-pstyle2 {
-		text-align:right;
-	}
-	#g-plt4_svg-Artboard_2 .g-pstyle3 {
-		text-align:center;
-		color:rgb(77,77,77);
-	}
-	#g-plt4_svg-Artboard_2 .g-pstyle4 {
-		line-height:14px;
-		font-size:12px;
-		color:rgb(77,77,77);
-	}
-
-</style>
-
-<div id="g-plt4_svg-box" class="ai2html">
-
-	<!-- Artboard: Artboard_1 -->
-	<div id="g-plt4_svg-Artboard_1" class="g-artboard" style="width:750px; height:372.263528934858px;" data-aspect-ratio="2.015" data-min-width="750">
-<div style=""></div>
-		<img id="g-plt4_svg-Artboard_1-img" class="g-plt4_svg-Artboard_1-img g-aiImg" alt="" src="./Chinese government&#39;s secret income_files/plt4_svg-Artboard_1.png">
-		<div id="g-ai0-1" class="g-Layer_1 g-aiAbs" style="top:0.5373%;left:1.6931%;width:35.3333%;">
-			<p>Percentage of revenue from penalties</p>
-			<p>in total revenue</p>
-		</div>
-		<div id="g-ai0-2" class="g-Layer_1 g-aiAbs" style="top:10.7451%;right:94.1816%;width:5.0667%;">
-			<p class="g-pstyle0">8.0%</p>
-		</div>
-		<div id="g-ai0-3" class="g-Layer_1 g-aiAbs" style="top:18.2666%;right:15.4456%;width:38.9333%;">
-			<p class="g-pstyle1">The number of Inner Mongolia has reached a record high of 8.1% in 2021</p>
-		</div>
-		<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:22.2369%;margin-top:-9.8px;left:12.7725%;width:115px;">
-			<p class="g-pstyle2">Inner Mongolia</p>
-		</div>
-		<div id="g-ai0-5" class="g-Layer_1 g-aiAbs" style="top:25.5196%;left:12.7725%;width:9.2%;">
-			<p>Average</p>
-		</div>
-		<div id="g-ai0-6" class="g-Layer_1 g-aiAbs" style="top:31.698%;right:94.1843%;width:6%;">
-			<p class="g-pstyle0">6.0</p>
-		</div>
-		<div id="g-ai0-7" class="g-Layer_1 g-aiAbs" style="top:52.9195%;right:94.1952%;width:4%;">
-			<p class="g-pstyle0">4.0</p>
-		</div>
-		<div id="g-ai0-8" class="g-Layer_1 g-aiAbs" style="top:73.6038%;right:94.0845%;width:4.2667%;">
-			<p class="g-pstyle0">2.0</p>
-		</div>
-		<div id="g-ai0-9" class="g-Layer_1 g-aiAbs" style="top:88.3783%;left:7.4389%;margin-left:-3.2667%;width:6.5333%;">
-			<p class="g-pstyle3">2000</p>
-		</div>
-		<div id="g-ai0-10" class="g-Layer_1 g-aiAbs" style="top:88.3783%;left:28.1633%;margin-left:-3.2667%;width:6.5333%;">
-			<p class="g-pstyle3">2005</p>
-		</div>
-		<div id="g-ai0-11" class="g-Layer_1 g-aiAbs" style="top:88.3783%;left:48.8878%;margin-left:-3.2667%;width:6.5333%;">
-			<p class="g-pstyle3">2010</p>
-		</div>
-		<div id="g-ai0-12" class="g-Layer_1 g-aiAbs" style="top:88.3783%;left:69.6122%;margin-left:-3.2667%;width:6.5333%;">
-			<p class="g-pstyle3">2015</p>
-		</div>
-		<div id="g-ai0-13" class="g-Layer_1 g-aiAbs" style="top:88.3783%;left:90.3366%;margin-left:-3.2667%;width:6.5333%;">
-			<p class="g-pstyle3">2020</p>
-		</div>
-		<div id="g-ai0-14" class="g-Layer_1 g-aiAbs" style="top:95.0939%;left:1.8163%;width:37.4667%;">
-			<p class="g-pstyle4">Source: China’s Ministry of Finance, CEIC</p>
-		</div>
-	</div>
-
-	<!-- Artboard: Artboard_2 -->
-	<div id="g-plt4_svg-Artboard_2" class="g-artboard" style="max-width: 350px;max-height: 354px" data-aspect-ratio="0.989" data-min-width="0" data-max-width="749">
-<div style="padding: 0 0 101.1442% 0;"></div>
-		<img id="g-plt4_svg-Artboard_2-img" class="g-plt4_svg-Artboard_2-img g-aiImg" alt="" src="./Chinese government&#39;s secret income_files/plt4_svg-Artboard_2.png">
-		<div id="g-ai1-1" class="g-Layer_1 g-aiAbs" style="top:0%;left:0.7034%;width:57.1429%;">
-			<p>Percentage of revenue from penalties in total revenue</p>
-		</div>
-		<div id="g-ai1-2" class="g-Layer_1 g-aiAbs" style="top:11.5818%;right:90.2096%;width:10.8571%;">
-			<p class="g-pstyle0">8.0%</p>
-		</div>
-		<div id="g-ai1-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:16.3218%;margin-top:-9.8px;left:17.7602%;width:115px;">
-			<p class="g-pstyle1">Inner Mongolia</p>
-		</div>
-		<div id="g-ai1-4" class="g-Layer_1 g-aiAbs" style="top:19.7737%;left:17.7602%;width:19.7143%;">
-			<p>Average</p>
-		</div>
-		<div id="g-ai1-5" class="g-Layer_1 g-aiAbs" style="top:24.2935%;right:15.7989%;width:56.2857%;">
-			<p class="g-pstyle2">The number of Inner Mongolia has reached a record high of 8.1% in 2021</p>
-		</div>
-		<div id="g-ai1-6" class="g-Layer_1 g-aiAbs" style="top:33.6154%;right:90.2154%;width:12.8571%;">
-			<p class="g-pstyle0">6.0</p>
-		</div>
-		<div id="g-ai1-7" class="g-Layer_1 g-aiAbs" style="top:55.9315%;right:90.2387%;width:8.5714%;">
-			<p class="g-pstyle0">4.0</p>
-		</div>
-		<div id="g-ai1-8" class="g-Layer_1 g-aiAbs" style="top:77.6826%;right:90.0016%;width:9.1429%;">
-			<p class="g-pstyle0">2.0</p>
-		</div>
-		<div id="g-ai1-9" class="g-Layer_1 g-aiAbs" style="top:87.8519%;left:12.3707%;margin-left:-7%;width:14%;">
-			<p class="g-pstyle3">2000</p>
-		</div>
-		<div id="g-ai1-10" class="g-Layer_1 g-aiAbs" style="top:87.8519%;left:32.2087%;margin-left:-7%;width:14%;">
-			<p class="g-pstyle3">2005</p>
-		</div>
-		<div id="g-ai1-11" class="g-Layer_1 g-aiAbs" style="top:87.8519%;left:52.0468%;margin-left:-7%;width:14%;">
-			<p class="g-pstyle3">2010</p>
-		</div>
-		<div id="g-ai1-12" class="g-Layer_1 g-aiAbs" style="top:87.8519%;left:71.8848%;margin-left:-7%;width:14%;">
-			<p class="g-pstyle3">2015</p>
-		</div>
-		<div id="g-ai1-13" class="g-Layer_1 g-aiAbs" style="top:87.8519%;left:91.7229%;margin-left:-7%;width:14%;">
-			<p class="g-pstyle3">2020</p>
-		</div>
-		<div id="g-ai1-14" class="g-Layer_1 g-aiAbs" style="top:95.7614%;left:0.5028%;width:80.2857%;">
-			<p class="g-pstyle4">Source: China’s Ministry of Finance, CEIC</p>
-		</div>
-	</div>
-
-</div>
-
-			<p></p>
-			<p>Inner Mongolia is one of those provinces that has the highest rate of revenue coming from fines and penalties. In 2021, the portion of revenue from fines and penalties in total revenue reached a record of 8.1%.</p>
-
-	  <section class="section">
-		<div class="container">
-            <p><i>You can find the code and all the data used in this article on <a href="https://github.com/yong-xiong/china-fines" target="_blank">Github</a>.</i></p>
-
-		
-            <p><i>Special thanks to Laura Bejder for authorizing using the template of this webpage. Head image source: Kevin Fraver/Getty Images.</i></p>
-            </div>
-
-              </section></div>
-          
-
-          
-        
-      
-    </section>
     
-  
+  <hr>
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <p>&copy; By Thomas Li</p>
+    <a href="https://thomastaoli.github.io/portfolio.html">Back to my portfolio page</a>
+  </div>
 
-</body></html>
+</body>
+</html>
