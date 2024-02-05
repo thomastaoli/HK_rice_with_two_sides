@@ -9,196 +9,203 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
 	<link href="css2" rel="stylesheet">
 
-      <style>
-			#g-plot-Artboard_1, #g-plot-Artboard_2, #g-plt4_svg-Artboard_1,#g-plt4_svg-Artboard_2 {
-				display: none;
-			}
-			@media (max-width: 650px) {
-				#g-plot-Artboard_2 {
-					display: block;
-				}
-				#g-plt4_svg-Artboard_2 {
-					display: block;
-				}
-				center {
-					display: none;
-				}
-			}
-			@media screen and (min-width: 650px)  {
-				#g-plot-Artboard_1 {
-					display: block;
-				}
-				#g-plt4_svg-Artboard_1 {
-					display: block;
-				}
-				center {
-					display: none;
-				}
-			}
-          .container {
-            max-width: 1000px !important;
-            color: #000000;
-            font-family: Georgia;
-          }
-          img {
-            display: block;
-            width:1000px;
-            margin: 0 auto;
-            transition: 0.3s;
-          }
+  <style>
+    #g-plot-Artboard_1, #g-plot-Artboard_2, #g-plt4_svg-Artboard_1,#g-plt4_svg-Artboard_2 {
+      display: none;
+    }
+    @media (max-width: 650px) {
+      #g-plot-Artboard_2 {
+        display: block;
+      }
+      #g-plt4_svg-Artboard_2 {
+        display: block;
+      }
+      center {
+        display: none;
+      }
+    }
+    @media (max-width: 768px) {
+  .title, .subtitle {
+    font-size: smaller; /* Adjust font size */
+    padding: 5px; /* Add some padding */
+  }
+}
+    @media screen and (min-width: 650px)  {
+      #g-plot-Artboard_1 {
+        display: block;
+      }
+      #g-plt4_svg-Artboard_1 {
+        display: block;
+      }
+      center {
+        display: none;
+      }
+    }
+        .container {
+          max-width: 1000px !important;
+          color: #000000;
+          font-family: Georgia;
+        }
+        img {
+          display: block;
+          width:1000px;
+          margin: 0 auto;
+          transition: 0.3s;
+        }
 
-          a {
-            color: deepskyblue;
-          }
+        a {
+          color: deepskyblue;
+        }
 
-          p {
-            margin-bottom:1.5em;
-            font-size: 18px;
-            font-family: Georgia;
-            color: #000000;
-          }
+        p {
+          margin-bottom:1.5em;
+          font-size: 18px;
+          font-family: Georgia;
+          color: #000000;
+        }
 
-		  .portrait {
-    float: left; /* Position the portrait to the left */
-    width: 80px; /* Adjust the width as needed */
-    height: 80px; /* Adjust the height as needed */
-    border-radius: 50%; /* Make the portrait round */
-    margin-right: 15px; /* Add some space between the portrait and the text */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    .portrait {
+  float: left; /* Position the portrait to the left */
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make the portrait round */
+  margin-right: 15px; /* Add some space between the portrait and the text */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
 }
 
 .byline, .date {
-    line-height: 100px; /* Adjust the line height to align with the height of the portrait */
-    margin: 0; /* Adjust margin as needed */
+  line-height: 100px; /* Adjust the line height to align with the height of the portrait */
+  margin: 0; /* Adjust margin as needed */
 }
 
-          .graph-title {
-            font-family: Arial;
-            font-weight: 600;
-            font-size: 24px;
-            color: #000000;
-				padding: auto;
-          }
+        .graph-title {
+          font-family: Arial;
+          font-weight: 600;
+          font-size: 24px;
+          color: #000000;
+      padding: auto;
+        }
 
-          .graph-subtitle {
-            font-family: Arial;
-            font-weight: 600;
-            font-size: 16px;
-				padding: auto;
-          }
+        .graph-subtitle {
+          font-family: Arial;
+          font-weight: 600;
+          font-size: 16px;
+      padding: auto;
+        }
 
-          h1.title {
-            font-size: 3rem;
-            line-height: 1.2;
-            margin-bottom: 0.4rem;
-            margin-top: 0.4rem;
-            font-weight: 800;
-            color: white; /* Changed from #2d2d2d to white */
-            text-decoration: underline; /* This adds the underline */
-            max-width: 800px;
-          }
+        h1.title {
+          font-size: 3rem;
+          line-height: 1.2;
+          margin-bottom: 0.4rem;
+          margin-top: 0.4rem;
+          font-weight: 800;
+          color: white; /* Changed from #2d2d2d to white */
+          text-decoration: underline; /* This adds the underline */
+          max-width: 800px;
+        }
 
-          h1.title span {
-            background-color: transparent;
-            padding: 0 1.2rem 0.6rem;
-            -webkit-box-decoration-break: clone;
-            -ms-box-decoration-break: clone;
-            -o-box-decoration-break: clone;
-            box-decoration-break: clone;
-          }
+        h1.title span {
+          background-color: transparent;
+          padding: 0 1.2rem 0.6rem;
+          -webkit-box-decoration-break: clone;
+          -ms-box-decoration-break: clone;
+          -o-box-decoration-break: clone;
+          box-decoration-break: clone;
+        }
 
-          h2.subtitle {
-            font-weight: bold;
-            font-size: 20px;
-            color: #2d2d2d;
-            padding-top: 40px; 
-				max-width: 1000px;
-          }
+        h2.subtitle {
+          font-weight: bold;
+          font-size: 20px;
+          color: #2d2d2d;
+          padding-top: 40px; 
+      max-width: 1000px;
+        }
 
-          h2.subtitle  span {
-            color: white;
-            padding: 0 1.3rem 0.3rem;
-            -webkit-box-decoration-break: clone;
-            -ms-box-decoration-break: clone;
-            -o-box-decoration-break: clone;
-            box-decoration-break: clone;
-          }
+        h2.subtitle  span {
+          color: white;
+          padding: 0 1.3rem 0.3rem;
+          -webkit-box-decoration-break: clone;
+          -ms-box-decoration-break: clone;
+          -o-box-decoration-break: clone;
+          box-decoration-break: clone;
+        }
 
-          .has-bg-img { 
-            background: url('images/image1.jpg');
-            center center; 
-            background-size:cover; 
-          }
+        .has-bg-img { 
+          background: url('images/image1.jpg');
+          center center; 
+          background-size:cover; 
+        }
 
-          .hero {
-            max-height: 100vh;
-          }
+        .hero {
+          max-height: 100vh;
+        }
 
-          .byline {
-            padding-top: 0px;
-            padding-bottom: 0px;
-            font-size: 18px;
-          }
+        .byline {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          font-size: 18px;
+        }
 
-          .bottomleft {
-            position: absolute;
-            bottom: 8px;
-            left: 16px;
-            font-size: 18px;
-            color: white;
-            
-            font-size: 12px;
-          }
+        .bottomleft {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+          font-size: 18px;
+          color: white;
+          
+          font-size: 12px;
+        }
 
-          .date {
-            font-size: 14px;
-            padding-top: 5px;
-            padding-bottom: 25px;
+        .date {
+          font-size: 14px;
+          padding-top: 5px;
+          padding-bottom: 25px;
 
-          }
+        }
 
+        .row-container {
+          display: flex;
+          flex-direction: row;
+          max-width: 960px;
+          margin: 0 auto;
+          gap: 2em;
+        }
+        
+        .column-container {
+          flex-grow: 1;
+          flex-shrink: 1;
+          flex-basis: 1;
+        }
+        
+        @media (max-width: 800px) {
           .row-container {
-            display: flex;
-            flex-direction: row;
-            max-width: 960px;
-            margin: 0 auto;
-            gap: 2em;
+            flex-direction: column;
           }
-          
-          .column-container {
-            flex-grow: 1;
-            flex-shrink: 1;
-            flex-basis: 1;
-          }
-          
-          @media (max-width: 800px) {
-            .row-container {
-              flex-direction: column;
-            }
-          }
+        }
 
-		  .video-background {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            min-width: 100%; 
-            min-height: 100%;
-            width: auto; 
-            height: auto;
-            z-index: -100; /* Ensure video stays in the background */
-            background-size: cover;
-          }
+    .video-background {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          min-width: 100%; 
+          min-height: 100%;
+          width: auto; 
+          height: auto;
+          z-index: -100; /* Ensure video stays in the background */
+          background-size: cover;
+        }
 
-		  .content {
-    overflow: hidden; /* Clear the float */
+    .content {
+  overflow: hidden; /* Clear the float */
 } 
 
-          .hero-body {
-            position: relative;
-            z-index: 1; /* Ensure content stays on top */
-          }
+        .hero-body {
+          position: relative;
+          z-index: 1; /* Ensure content stays on top */
+        }
 
-      </style>
+    </style>
+
 
 
   <script type="text/javascript">
@@ -278,7 +285,7 @@
 			<div class="hero-body"> 
 			  <div class="video-background">
 				<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-				  <source src="rice_clips.mp4" type="video/mp4">
+				<source src="rice_clips.mp4" type="video/mp4">
 				</video>
 			  </div>
 			  <h1 class="title"><span>Tasty, cheap and cheerful: <br>Data behind Hong Kong's "Rice with two sides" craze</span></h1>
